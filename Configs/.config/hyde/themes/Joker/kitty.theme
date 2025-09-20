@@ -1,45 +1,48 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
-foreground              #FFFFFF
-background              #0f0f0f
-selection_foreground    #0E2840
-selection_background    #FFFFFF
-cursor                  #70A5D5 
-cursor_text_color       #100F0E
 
-active_tab_foreground     #0E2840
-active_tab_background     #3280C2
-inactive_tab_foreground   #3280C2
-inactive_tab_background   #0E2840
+foreground              #FFFFFF
+background              #0a0a0a
+selection_foreground    #0a0a0a
+selection_background    #00cccc
+cursor                  #814DDE
+cursor_text_color       #C7CAC2
+# Tabs
+active_tab_foreground     #0a0a0a
+active_tab_background     #340987
+inactive_tab_foreground   #340987
+inactive_tab_background   #0a0a0a
+
+# Colors
 
 # black
-color0      #293E52
-color8      #57748F
+color0      #0a0a0a
+color8      #814DDE
 
 # red
-color1      #CCE7FF
-color9      #AACFF0
+color1      #FA8072
+color9      #ff0055
 
 # green
-color2      #CCE8FF
-color10     #AAD0F0
-
-# yellow
-color3      #CCE8FF
-color11     #AAD0F0
-
-# blue
-color4      #9AC1E6
-color12     #9AC1E6
-
-# magenta
-color5      #9AC3E6
-color13     #9AC3E6
+color2      #39ff14
+color10     #00ff00
 
 # cyan
-color6      #9AC3E6
-color14     #9AC3E6
+color3      #00ffff
+color11     #00cccc
+
+# blue
+color4      #6272a4
+color12     #4444ff
+
+# magenta
+color5      #B49AE6
+color13     #ff00ff
+
+# cyan
+color6      #00ffff
+color14     #00cccc
 
 # white
-color7      #CCE7FF
-color15     #AACFF0
+color7      #cfcfcf
+color15     #ffffff
